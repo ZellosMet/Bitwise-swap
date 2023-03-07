@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 void main()
@@ -7,7 +7,7 @@ void main()
 
 	int num_one, num_two;
 
-	cout << "Ââåäèòå ïåðâóþ è âòîðóþ ïåðåìåííóþ: "; cin >> num_one >> num_two;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿ÐµÑ€Ð²ÑƒÑŽ Ð¸ Ð²Ñ‚Ð¾Ñ€ÑƒÑŽ Ð¿ÐµÑ€ÐµÐ¼ÐµÐ½Ð½ÑƒÑŽ: "; cin >> num_one >> num_two;
 
 	num_one = num_one ^ num_two;
 	num_two = num_two ^ num_one;
